@@ -19,13 +19,13 @@ body {
 }
 
 
-
 .header {
     display: flex;
     justify-content: space-between;
     
 }
 
+/*logo de naldana*/
 .src-only {
     display: none;
 }
@@ -35,12 +35,14 @@ body {
     padding: 1rem 1rem 1rem 1rem
 }
 
+/*tamaño y dimensiones de la etiqueta p*/
 p{
     font-size: 0.75em;
     padding: 1rem 1rem 1rem 1rem;
     line-height: 25px;
 }
 
+/*dimensiones de logo Isotipo*/
 .logo {
     width: 90px;
     margin: 1em;
@@ -74,6 +76,7 @@ p{
     letter-spacing: 0.002em;
     margin-top: 1em ;
 }
+/*tanaño y color de la letra de la etiqueta p del primer container*/
 
 .big-hero p {
     font-size: 0.7em;;
@@ -88,6 +91,8 @@ p{
   }
 
 /* Social links*/
+
+/*modificar diseño de iconos de redes sociales*/
 .social-links{
     list-style: none;
     padding: 0em;
@@ -107,7 +112,7 @@ p{
 
 }
 
-/*modificacion de tamaño y dismencion de botones*/
+/*modificacion de tamaño y dismencion redes sociales*/
 
 .fab.fa-github{
     font-size: 2.5em;
