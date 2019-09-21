@@ -18,10 +18,12 @@ body {
     font-weight: 400;
 }
 
+
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0em 5em;
+    
 }
 
 .src-only {
@@ -79,11 +81,17 @@ p{
 
 }
 
+/*estilo para que el container sea responsive*/
+.container {
+    display: flexbox;
+    padding: 0em 3em 4.8em 3em;
+  }
+
 /* Social links*/
 .social-links{
     list-style: none;
-    padding: 0em 0em 1em 0em;
-    margin-top: 0em;
+    padding: 0em;
+    margin-top: 0.5em;
     display: flex;
     flex-direction: row;
     justify-content: center
@@ -115,7 +123,7 @@ p{
 
 .fas.fa-arrow-circle-down{
     font-size: 2.5em;
-    padding: 1.5em 1em;
+    padding: 0.75em 0.75em;
     color:#0AC693;
 
 }
