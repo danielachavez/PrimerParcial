@@ -18,6 +18,7 @@ body {
     font-weight: 400;
 }
 
+/*diseño para el logo y la lista del header*/
 
 .header {
     display: flex;
@@ -27,7 +28,7 @@ body {
 
 }
 
-/* en el container se usa flexbox para que pueda adaptarse a difeentes tamaños*/
+/* para que pueda adaptarse a diferentes tamaños*/
 .container{
     display: flexbox;
     padding: 0em 2em;
@@ -50,7 +51,7 @@ p{
     line-height: 25px;
 }
 
-/*dimensiones de logo Isotipo*/
+/*dimensiones de logo */
 .logo {
     width: 90px;
     margin: 1em;
@@ -90,10 +91,10 @@ p{
     letter-spacing: 0.002em;
     margin-top: 1em ;
 }
-/*tanaño y color de la letra de la etiqueta p del primer container*/
+/*tamaño y color de la letra de la etiqueta p del primer container*/
 
 .big-hero p {
-    font-size: 0.7em;
+    font-size: 1em;
     color: #D7DEE6;
 
 }
@@ -110,13 +111,13 @@ p{
 .social-links{
     list-style: none;
     padding: 0em;
-    margin-top: 0.5em;
+    margin-top: 0em 0em 0.5em 0em;
     display: flex;
     flex-direction: row;
     justify-content: center
 
 }
-
+/*diseño de los iconos de git y twitter*/
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
@@ -163,16 +164,20 @@ p{
     color: white;
   }
 
+  /*del area que contiene las publicaciones*/
 
 .green-area {
     background-color: #0AC693; 
 }
 
+/*se modifica el div que contiene las publicaciones*/
 
 .post {
     padding: 1em;
     margin-bottom: -2px;
 }
+
+/*Se modifica el texto de publicaciones*/
 .post h2 {
     text-transform: uppercase;
     font-weight: 700;
@@ -227,6 +232,8 @@ p{
 
 /* About */
 
+/* Se modifica el about, el bio-info y el contact*/
+
 .about{
     margin-top: 2em;
 }
@@ -252,17 +259,25 @@ p{
     margin-right: 2em;
 }
 
+/*modificando el contact*/
 .contact {
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 0px 1em;
+    padding: 0px 2em;
     
 }
 
 .contact * + * {
     margin-top: 1.5em;
 }
+
+/*tipo de letra y dimensiones*/
+.contact-form > label {
+    font-weight: 625;
+    font-size: 1.25em;
+  }
+  
 
 .contact-form {
     display: flex;
@@ -277,6 +292,7 @@ p{
     width: 100%;
 }
 
+
 /* Decorando placeholder */
 
 ::-webkit-input-placeholder { 
@@ -289,6 +305,9 @@ p{
  
 :-ms-input-placeholder { color: #D7DEE6; }
 
+
+/*diseño para modificar el boton de contacto */
+
 .contact-form input[type=submit] {
     background-color: #F74442;
     font-weight: 400;
@@ -300,14 +319,20 @@ p{
     background-image: url("../images/decoracion_oscura_small.svg");
 }
 
+/*modificando el footer*/
+
 footer{
     background-color: #0D5061;
     color:#D7DEE6;
 }
 
+/* margen para los iconos de twitter y git*/
+
 footer .social-links {
     margin: 0;
 }
+
+/*posiciones del menu del primer div*/
 
 .menu {
     background-color: #112935;
@@ -319,17 +344,22 @@ footer .social-links {
     height: calc(100vh - 60px);
 }
 
+/*modificando menu del primer div*/
 .menu {
     list-style: none;
     text-align: left;
     padding: 1em;
 }
+
+/*modificando la lista del primer div*/
 .menu li {
     display: block;
     padding: 0.5em;
     margin-top: 5px;
+    font-size: 1.2em;
 }
 
+/*modificando las letras de la lista del primer div*/
 .menu li a {
     color: white;
     text-decoration: none;
@@ -367,6 +397,8 @@ li a:hover{
         width: 150px;
         margin: 1.5em;
     }
+
+    /*se modifica el menu,contacto, acerca de y publicaciones*/
 
     .show-desktop {
         display: block;
@@ -414,8 +446,8 @@ margin:15px;
 .about .contact-form input[type="submit"]{
     width: 200px;
 }
-    /*modificando los divs de contacto y bio-info*/
-    /*TODO: FALTA CSS */
+    
+ 
 } 
 
 @media only screen and (min-width: 1024px) {
@@ -445,9 +477,6 @@ margin:20px;
 
 
 
-       /*TODO: FALTA CSS */
-
-
 
 }
 
@@ -475,6 +504,6 @@ margin:30px;
     margin:20px;
     }
 
-    /*TODO: FALTA CSS */
+    
   
 }
